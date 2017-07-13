@@ -1,0 +1,271 @@
+/**
+ * The file contains styles for GWT widgets in the Clean theme.
+ */
+body, table td, select, button {
+	font-family: Arial Unicode MS, Arial, sans-serif;
+	font-size: small;
+}
+
+pre {
+	font-family: "courier new", courier;
+	font-size: small;
+}
+
+body {
+	color: black;
+	margin: 10px;
+	border: 0px;
+	padding: 3px;
+	background: #FFA039;
+	direction: ltr;
+}
+
+a, a:visited {
+	color: #0066cc;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0066cc;
+	text-decoration: underline;
+}
+
+select {
+	background: white;
+}
+
+.gwt-Button {
+	margin: 0;
+	padding: 5px 5px;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+	font-size: small;
+	background: #02648A; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#099DD5, #02648A);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#099DD5, #02648A);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#099DD5, #02648A);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#099DD5, #02648A); /* Standard syntax */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #02648A;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0
+		rgba(0, 0, 0, 0.19);
+	margin: 8px 8px 8px 8px;
+}
+
+.gwt-Button:active {
+	border: 1px inset #02648A;
+}
+
+.gwt-Button:hover {
+	border-color: #02648A;
+}
+
+.gwt-Button[disabled] {
+	cursor: default;
+	color: #888;
+}
+
+.gwt-Button[disabled]:hover {
+	border: 1px outset #ccc;
+}
+
+.gwt-HTML {
+	padding: 20px;
+	min-width: 150px;
+	background: #FFC687;
+	background: #FFC687; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(white, #FFC687);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, #FFC687);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, #FFC687);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, #FFC687); /* Standard syntax */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #AA5900;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0
+		rgba(0, 0, 0, 0.19);
+	margin: 8px 8px 8px 8px;
+}
+
+.gwt-Hyperlink {
+	cursor: pointer;
+}
+
+.gwt-PopupPanel {
+	text-align: center;
+	font-size: 1.3em;
+	background: #0386B8; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#36A8D3, #0386B8);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#36A8D3, #0386B8);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#36A8D3, #0386B8);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#36A8D3, #0386B8); /* Standard syntax */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #024E6B;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.gwt-PopupPanelGlass {
+	background-color: #babdb6;
+	opacity: 0.5;
+	filter: alpha(opacity = 50);
+}
+
+.gwt-StackLayoutPanel {
+	margin: 3px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #02648A;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.gwt-StackLayoutPanel .gwt-StackLayoutPanelHeader {
+	margin: 0;
+	padding: 5px 5px;
+	text-decoration: none;
+	cursor: pointer;
+	cursor: hand;
+	font-size: small;
+	background: #02648A; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#099DD5, #02648A);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#099DD5, #02648A);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#099DD5, #02648A);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#099DD5, #02648A); /* Standard syntax */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #02648A;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+.gwt-StackLayoutPanel .gwt-StackLayoutPanelHeader-hovering {
+	
+}
+
+.gwt-StackLayoutPanel .gwt-StackLayoutPanelContent {
+	padding: 3px;
+	text-align: left;
+	background: #36A8D3; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(white, #36A8D3);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(white, #36A8D3);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(white, #36A8D3);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(white, #36A8D3); /* Standard syntax */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #024E6B;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0
+		rgba(0, 0, 0, 0.19);
+}
+
+/**
+ * Style dla konkretnych elementow
+ */
+.oMnieButton {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.ja {
+	display: block;
+	margin: auto;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #024E6B;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0
+		rgba(0, 0, 0, 0.19);
+	margin: 8px 8px 8px 8px;
+}
+
+.motyw {
+	position: absolute;
+	left: 0px;
+	width: 213px;
+	hight: 80px;
+}
+
+.naglowek {
+	font-size: 1.3em;
+	background: #024E6B; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#0386B8, #024E6B);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#0386B8, #024E6B);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#0386B8, #024E6B);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#0386B8, #024E6B); /* Standard syntax */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #024E6B;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0
+		rgba(0, 0, 0, 0.19);
+	margin: 8px 8px 8px 8px;
+}
+
+.stopka {
+	background: #32DE72; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#32DE72, #009F3B);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#32DE72, #009F3B);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#32DE72, #009F3B);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#32DE72, #009F3B); /* Standard syntax */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #007B2E;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0
+		rgba(0, 0, 0, 0.19);
+	margin: 8px 8px 8px 8px;
+}
+
+.tytuly {
+	background: #FF5B39; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(#FF5B39, #DB2600);
+	/* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#FF5B39, #DB2600);
+	/* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#FF5B39, #DB2600);
+	/* For Firefox 3.6 to 15 */
+	background: linear-gradient(#FF5B39, #DB2600); /* Standard syntax */
+	border-style: solid;
+	border-width: 2px;
+	border-color: #AA1E00;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0
+		rgba(0, 0, 0, 0.19);
+	padding: 5px;
+	margin: 8px 8px 8px 8px;
+}
+
+.zamknij {
+	position: absolute;
+	right: 1px;
+}

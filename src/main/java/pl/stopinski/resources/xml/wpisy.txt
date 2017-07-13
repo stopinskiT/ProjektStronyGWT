@@ -1,0 +1,26 @@
+<Wpisy>
+<Wpis>
+<Data>2017-07-12</Data>
+<Tytul>Wstęp</Tytul>
+<Tresc><![CDATA[
+Zaczęło się! W końcu stworzyłem własną stronę WWW, w technologii GWT. Blogo - portfolio. Teraz trzeba wygenerować jakąś treść, w dodatku niebanalną, aby czytelnik chciał tu wrócić. Prima facie wydaje się, że absolwent filozofii będzie sypał tekstami aż nadto swobodnie. Powszechna opinia o filozofach wskazuje na taką możliwość. Jednak w historii spotykamy zwięzłych, wręcz lakonicznych myślicieli. 			
+]]></Tresc>
+</Wpis>
+
+<Wpis>
+<Data>2017-05-08</Data>
+<Tytul>Pierwszy wpis</Tytul>
+<Tresc>
+To jest test. Będę próbować wczytywać wpisy do aplikacji.
+			Trochę skomplikowana może być praca XML.
+</Tresc>
+</Wpis>
+
+<Wpis>
+<Data>2017-05-09</Data>
+<Tytul>Drugi wpis</Tytul>
+<Tresc>
+To jest test nr 2. Będę próbować wczytywać wpisy do aplikacji. Trochę skomplikowana może być praca XML.
+</Tresc>
+</Wpis>
+</Wpisy>
